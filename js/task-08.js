@@ -9,7 +9,6 @@ function handleSub(evt) {
   if (email.value === "" || password.value === "") {
     return alert("Всі поля повинні бути заповнені!");
   } else {
-    console.dir(email.value);
-    console.dir(password.value);
+    console.dir({ email: `${email.value}`, password: `${password.value}`});
   }
 }

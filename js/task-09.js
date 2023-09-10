@@ -1,5 +1,5 @@
 const elements = {
-  body: document.querySelector(".widget"),
+  body: document.body,
   btn: document.querySelector(".change-color"),
   colorValue: document.querySelector(".color"),
 };
